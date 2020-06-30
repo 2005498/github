@@ -3,7 +3,7 @@
 
 void main()
 {
-    int n,i ,sum=0;
+    int n,i ,s=0;
     float avg=0 ;
     printf("enter the range:\n");
     scanf("%d",&n);
@@ -14,10 +14,10 @@ void main()
     }
     for(i=1;i<=n;i++)
     {
-        sum+=i;
+        s+=i;
     }
-    printf("sum=%d",sum);
-avg= (float)sum/n;  //type casting
+    printf("sum=%d",s);
+avg= (float)s/n;  //type casting
 printf("\naverage=%f",avg);
   
 }
